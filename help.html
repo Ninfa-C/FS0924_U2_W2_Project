@@ -75,15 +75,16 @@
         <div class=" w-75">
         <h2 class="text-black dark-border-custom">Account</h2>
         <div class="row row-cols-1 row-cols-md-2 dark-border-custom">
-            <div class="col-lg-3">
-                <h5 class="card-title">MEMBERSHIP & BILLING</h5>
+            <div class="col-lg-3 col-md-3">
+                <h5 class="card-title opacity-25 mb-3">MEMBERSHIP & BILLING</h5>
+                <button type="button" class="btn btn-dark button-custom cancel-btn">Cancel Membership</button>
             </div>
-            <div class="col-lg-9 ">
+            <div class="col-lg-9 col-md-9">
                 <div class="row row-cols-lg-2 dark-border-custom">
-                    <div class="col">
+                    <div class="col lh-1">
                         <p>Email: <strong>student@strive.school</strong></p>
-                        <p>Password: ********</p>
-                        <p>Phone: 321 044 1279</p>
+                        <p class="opacity-50">Password: ********</p>
+                        <p class="opacity-50">Phone: 321 044 1279</p>
                     </div>
                     <div class="col d-flex flex-column align-items-end">
                         <button class="btn btn-link">Change account email</button>
@@ -91,34 +92,40 @@
                         <button class="btn btn-link">Change phone number</button>
                     </div>
                 </div>
-                <div class="row row-cols-lg-2 ">
-                    <div class="col">
+                <div class="row row-cols-md-2 ">
+                    <div class="col-md-7 p-0">
                         <span class="fw-bold"><i class="bi bi-paypal"></i> PayPal</span>
-                        <span class=""> admin@strive.school</span>
+                        <span class="fw-bold"> admin@strive.school</span>
                     </div>
-                    <div class="col d-flex flex-column align-items-end">
-                        <button class="btn btn-link">Update payment info</button>
-                        <button class="btn btn-link">Billing details</button>
+                    <div class="col col-md-5 d-flex flex-column align-items-end">
+                        <button class="btn btn-link text-end ml-0 p-0">Update payment info</button>
+                        <button class="btn btn-link text-end p-0">Billing details</button>
                     </div>
+                    <div class=" col-md-12 text-end p-0">
+                        <button class="btn btn-link text-end">Redeem giftcard or promo code</button>
+                        <button class="btn btn-link text-end">Where to buy gift cards?</button>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="row rounded-1 row-cols-lg-3 dark-border-custom ">
-            <div class="col-lg-3">
-                <h5 class="card-title">PLAN DETAIL</h5>
+
+        <div class="row rounded-1 row-cols-md-3 dark-border-custom ">
+            <div class="col-lg-3 col-md-3">
+                <h5 class="card-title opacity-25">PLAN DETAIL</h5>
             </div>
-            <div class="col-lg-6">
-                <p><strong>Premium</strong> <i class="bi bi-badge-hd"></i></p>
+            <div class="col-lg-6 col-md-6">
+                <p><strong>Standard</strong> <i class="bi bi-badge-hd"></i></p>
             </div>
-            <div class="col-lg-3 text-end">
+            <div class="col-lg-3 col-md-3 text-end">
                 <button class="btn btn-link">Change plan</button>
             </div>
         </div>
-        <div class="row rounded-1 row-cols-lg-3 dark-border-custom ">
-            <div class="col-lg-3">
-                <h5 class="card-title">SETTINGS</h5>
+        <div class="row rounded-1 row-cols-md-3 dark-border-custom ">
+            <div class="col-lg-3 col-md-3">
+                <h5 class="card-title opacity-25">SETTINGS</h5>
             </div>
-            <div class="col-lg-6 d-flex flex-column justify-content-start">
+            <div class="col-lg-6 col-md-9 d-flex flex-column justify-content-start">
                 <button class="btn btn-link ps-0 text-start">Parental controls</button>
                 <button class="btn btn-link ps-0 text-start">Test partecipation</button>
                 <button class="btn btn-link ps-0 text-start">Manage download devices</button>
@@ -127,24 +134,31 @@
                 <button class="btn btn-link ps-0 text-start">Sign out of all devices</button>
             </div>
         </div>
-        <div class="row rounded-1 row-cols-lg-2 dark-border-custom ">
-            <div class="col-lg-3">
-                <h5 class="card-title">MY PROFILE</h5>
+        <div class="row rounded-1 row-cols-md-2 mb-5 pb-5">
+            <div class="col-lg-3 col-md-3">
+                <h5 class="card-title opacity-25">MY PROFILE</h5>
             </div>
 
-            <div class="col-lg-9 ">
-                <div class="row row-cols-lg-2">
-                    <div class="col">
+            <div class="col-lg-9 col-md-9">
+                <div class="row row-cols-lg-2 mb-2">
+                    <div class="col d-flex align-items-start">
                         <span class="avatar-icon bg-light me-2"></span>
-                        <p>
-                            <strog>Strive Student</strog>
-                        </p>
-
+                        <p class="fw-bold"> Strive Student</p>
                     </div>
                     <div class="col d-flex flex-column align-items-end">
-                        <button class="btn btn-link">Change account email</button>
-                        <button class="btn btn-link">Change password</button>
-                        <button class="btn btn-link">Change phone number</button>
+                        <button class="btn btn-link pb-0">Manage profiles</button>
+                        <button class="btn btn-link pt-0">Add profile email</button>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 justify-content-start">
+                    <div class="col-md-5 d-flex flex-column">
+                        <button class="btn btn-link ps-0 text-start">Language</button>
+                        <button class="btn btn-link ps-0 text-start">Playback settings</button>
+                        <button class="btn btn-link ps-0 text-start">Subtitle appearance</button>
+                    </div>
+                    <div class="col-md-5 d-flex flex-column">
+                        <button class="btn btn-link ps-0">Viewing activity</button>
+                        <button class="btn btn-link ps-0">Ratings</button>
                     </div>
                 </div>
             </div>

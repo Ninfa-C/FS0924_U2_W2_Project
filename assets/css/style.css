@@ -80,4 +80,10 @@ body {
   border-radius: 0;
 }
 
+.cancel-btn {
+  background-color: #E2E2E2;
+  color: #000000;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
