@@ -81,9 +81,10 @@ body {
 }
 
 .cancel-btn {
-  background-color: #E2E2E2;
+  background-color: #E8E8E8;
   color: #000000;
   border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */
