@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -8,11 +9,13 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid ">
-                <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/netflix_logo.png" alt="logo" width="100px"></a>
+                <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/netflix_logo.png" alt="logo"
+                        width="100px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +48,8 @@
                                 aria-expanded="false"></div>
                             <span class="dropdown-toggle ms-1" data-bs-toggle="dropdown" data-bs-display="static"
                                 aria-expanded="false"></span>
-                            <div class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end border-0 shadow-lg py-3 bg-black text-white">
+                            <div
+                                class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end border-0 shadow-lg py-3 bg-black text-white">
                                 <div class="d-flex pb-1" style="gap: 6px">
                                     <div class="dropdown-header d-flex align-items-center">
                                         <div class="avatar-icon bg-light me-2"></div>
@@ -67,10 +71,53 @@
         </nav>
     </header>
 
+    <main class="container-fluid pt-4 bg-body text-black d-flex flex-column align-items-center"">
+        <div class=" w-75">
+        <h2 class="text-black dark-border-custom">Account</h2>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col-md-3">
+                <h5 class="card-title">MEMBERSHIP & BILLING</h5>
+            </div>
+            <div class="col-md-9 ">
+                <div class="row row-cols-lg-2 dark-border-custom">
+                    <div class="col">
+                        <p>Email: <strong>student@strive.school</strong></p>
+                        <p>Password: ********</p>
+                        <p>Phone: 321 044 1279</p>
+                    </div>
+                    <div class="col d-flex flex-column align-items-end">
+                        <button class="btn btn-link">Change account email</button>
+                        <button class="btn btn-link">Change password</button>
+                        <button class="btn btn-link">Change phone number</button>
+                    </div>
+                </div>
+                <div class="row row-cols-lg-2 dark-border-custom">
+                    <div class="col">
+                        <span class="fw-bold"><i class="bi bi-paypal"></i> PayPal</span>
+                        <span class=""> admin@strive.school</span>
+                    </div>
+                    <div class="col d-flex flex-column align-items-end">
+                        <button class="btn btn-link">Update payment info</button>
+                        <button class="btn btn-link">Billing details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rounded-1 row-cols-lg-3 dark-border-custom ">
+            <div class="col-lg-3">
+                <h5 class="card-title">PLAN DETAIL</h5>
+            </div>
+            <div class="col-lg-6">
+                <p><strong>Premium</strong> <i class="bi bi-badge-hd"></i></p>
+            </div>
+            <div class="col-lg-3 text-end">
+                <button class="btn btn-link">Change plan</button>
+            </div>
+        </div>
 
+        </div>
 
-
-
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -80,4 +127,5 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

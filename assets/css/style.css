@@ -70,6 +70,12 @@ body {
   border-bottom: rgba(255, 255, 255, 0.1921568627) 1px solid;
 }
 
+.dark-border-custom {
+  padding-bottom: 1em;
+  border-bottom: #d1d0d0 1px solid;
+  margin-bottom: 1em;
+}
+
 .button-custom {
   border-radius: 0;
 }
