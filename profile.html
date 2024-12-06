@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Profile Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <header class="p-2">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/netflix_logo.png" alt="logo"
+                    width="150px"></a>
+        </div>
+    </header>
+
+    <main class="d-flex flex-column align-items-center">
+        <div class="col-4">
+            <h1 class="profile-title pb-3 my-3 border-custom">Edit Profile</h1>
+            <div class="row row-cols-1">
+                <div class="col-md-3">
+                    <div><img src="assets/imgs/avatar.png" alt="profile Picture" width="100"></div>
+                </div>
+                <div class="col-md 9">
+                    <h3 class="text-bg-custom fw-light py-2 px-1 mb-3">Ninfa</h3>
+                    <div class="pb-3 my-3 border-custom">
+                        <p class="opacity-50">Language</p>
+                        <select id="genres" name="genres"
+                            class="form-select-sm w-auto text-white bg-black button-custom">
+                            <option value="" disabled selected>Choose</option>
+                            <option value="en">English</option>
+                            <option value="it">Italian</option>
+                            <option value="es">Spanish</option>
+                            <option value="fr">French</option>
+                            <option value="de">German</option>
+                            <option value="pt">Portuguese</option>
+                        </select>
+                    </div>
+
+                    <div class="pb-3 my-3 border-custom">
+                        <p class="opacity-50 w-50">Maturity Settings:</p>
+                        <button type="button" class="btn btn-dark button-custom mb-3">ALL MATURITY SETTINGS</button>
+                        <P class="opacity-75"> Show files for all maturity settings for this profile.</P>
+                        <button type="button" class="btn btn-outline-light button-custom opacity-50">EDIT</button>
+                    </div>
+
+                    <div class="pb-3 my-3 border-custom">
+                        <p class="opacity-50 w-50">Autopplay Controls:</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="autoplay1" checked>
+                            <label class="form-check-label" for="autoplay1">
+                                Autoplay next episode in a series on all devices
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="autoplay2" checked>
+                            <label class="form-check-label" for="autoplay2">
+                                Autoplay next episode in a series on all devices
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="pb-3 my-3 d-md-flex w-100 justify-content-between row-cols-1 row-cols-md-3">
+                    <button type="button" class="btn btn-outline-light button-custom fw-bold col-7 col-md-3">SAVE</button>
+                    <button type="button"
+                        class="btn btn-outline-light button-custom opacity-50 col-md-3">CANCEL</button>
+                    <button type="button" class="btn btn-outline-light button-custom opacity-50 col-md-5">DELETE
+                        PROFILE</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
